@@ -1,0 +1,1 @@
+load_conversation("yesno1.json");

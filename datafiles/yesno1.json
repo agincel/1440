@@ -1,0 +1,23 @@
+[
+	{
+		"type": "yesno",
+		"yesScript": "scr_lol",
+		"noScript": "scr_lol1",
+		"yesFile": "plainMessage.json",
+		"noFile": "plainMessage2.json"
+	},
+	{
+		"name": "Adam",
+		"portraitType": "left",
+		"portrait": "spr_example_portrait",
+		"text": "Hey Taber,^5 do you think this will work?",
+		"textWait": "3"
+	},
+	{
+		"name": "Taber",
+		"portraitType": "right",
+		"portrait": "spr_example_portrait",
+		"text": "I dunno,^5 do you think it'll work?",
+		"textWait": "2"
+	}
+]

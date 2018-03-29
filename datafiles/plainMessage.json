@@ -1,0 +1,21 @@
+[
+	{
+		"type": "plain",
+		"endScript": "-1",
+		"endFile": "plainMessage2.json"
+	},
+	{
+		"name": "Joe",
+		"portraitType": "left",
+		"portrait": "spr_example_portrait",
+		"text": "Hey Bob, how's it going?",
+		"textWait": "3"
+	},
+	{
+		"name": "Bob",
+		"portraitType": "right",
+		"portrait": "spr_example_portrait",
+		"text": "It's going okay, Joe.",
+		"textWait": "1"
+	}
+]

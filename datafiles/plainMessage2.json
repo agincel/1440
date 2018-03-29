@@ -1,0 +1,21 @@
+[
+	{
+		"type": "plain",
+		"endScript": "scr_lol",
+		"endFile": "-1"
+	},
+	{
+		"name": "Adam",
+		"portraitType": "left",
+		"portrait": "spr_example_portrait",
+		"text": "Look Taber,^9 it works!",
+		"textWait": "3"
+	},
+	{
+		"name": "Taber",
+		"portraitType": "right",
+		"portrait": "spr_example_portrait",
+		"text": "By god,^9 you're right!",
+		"textWait": "5"
+	}
+]
