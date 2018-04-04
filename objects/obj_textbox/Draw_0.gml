@@ -11,7 +11,7 @@ var startX = bbox_left + margin_side;
 var startY = bbox_top + margin_top;
 
 draw_set_font(fnt_text_box);
-draw_set_color(c_black);
+draw_set_color(c_white);
 draw_set_halign(fa_left);
 
 draw_text_ext(startX, startY, displayString, 28, sprite_get_width(sprite_index) - (margin_side * 2));
