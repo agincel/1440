@@ -1,10 +1,22 @@
 /// @description process sourceString, start incrementing
 
 #region Load from arr
+show_debug_message(arr);
 a = arr[0]; //if this is out of bounds it'll crash
 show_debug_message(arr);
 sourceString = a.text;
 textWait = a.textWait;
+
+if (array_length_1d(arr) == 1) {
+	//we know we're the last one
+	if (a.type == "yesno") {
+		choiceLockout = 50;	
+		selected = 1;
+	} else if (a.type == "choice") {
+		choiceLockout = 50;
+		selectedMax = ds_list_size(a.choices);
+	}
+}
 #endregion
 
 

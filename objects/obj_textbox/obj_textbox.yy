@@ -73,9 +73,50 @@
             "enumb": 32,
             "eventtype": 9,
             "m_owner": "bc02e2d9-fe00-432d-9e74-649c825f9a8e"
+        },
+        {
+            "id": "0bcb037e-82b3-430a-a04a-e5a30ad31430",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 38,
+            "eventtype": 9,
+            "m_owner": "bc02e2d9-fe00-432d-9e74-649c825f9a8e"
+        },
+        {
+            "id": "2b9db836-f10c-4cc2-a354-ac80f105ea4a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 40,
+            "eventtype": 9,
+            "m_owner": "bc02e2d9-fe00-432d-9e74-649c825f9a8e"
+        },
+        {
+            "id": "fbce7cd6-49ca-41db-9be7-db7677995f90",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 37,
+            "eventtype": 9,
+            "m_owner": "bc02e2d9-fe00-432d-9e74-649c825f9a8e"
+        },
+        {
+            "id": "6fb4ecec-a52a-41dd-a238-856147ac39c4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 39,
+            "eventtype": 9,
+            "m_owner": "bc02e2d9-fe00-432d-9e74-649c825f9a8e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -90,6 +131,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
+    "properties": null,
     "solid": false,
     "spriteId": "89c3fa83-14c7-48ec-956f-b6a6ea5e16cb",
     "visible": true

@@ -3,8 +3,8 @@
 		"type": "yesno",
 		"yesScript": "scr_lol",
 		"noScript": "scr_lol1",
-		"yesFile": "plainMessage.json",
-		"noFile": "plainMessage2.json"
+		"yesFile": "plainMessage2.json",
+		"noFile": "plainMessage.json"
 	},
 	{
 		"name": "Adam",

@@ -1,27 +1,34 @@
 [
 	{
-		"type": "plain",
+		"type": "choice",
 		"endScript": "-1",
-		"endFile": "-1"
+		"endFile": "-1",
+		"yesFile": "-1",
+		"noFile": "-1",
+		"yesScript": "-1",
+		"noScript": "-1",
+		"choices": ["I like it.", "I hate it.", "I couldn't care less.", "What do YOU think?"],
+		"choiceScripts": ["scr_lol", "-1", "-1", "-1"],
+		"choiceFiles": ["-1", "-1", "plainMessage2.json", "-1"]
 	},
 	{
 		"name": "Joe",
 		"portraitType": "left",
-		"portrait": "spr_example_portrait",
+		"portrait": "port_temp",
 		"text": "1440 is the name of a 24/7 convenience store in a Californian town roughly 10 miles east of an important west coast city.^9 It is run by a family of four featuring a mother,^5 father,^5 high school aged son,^5 and college aged daughter.",
 		"textWait": "2"
 	},
 	{
 		"name": "Joe",
-		"portraitType": "left",
-		"portrait": "spr_example_portrait",
+		"portraitType": "right",
+		"portrait": "port_temp",
 		"text": "The day is split into four shifts:^7 morning,^5 afternoon,^5 evening,^5 and late-night.^9 Throughout the days the TV in the store will report on mounting tensions with a foreign power,^5 culimating in threats of nuclear attack.",
 		"textWait": "2"
 	},
 	{
 		"name": "Joe",
-		"portraitType": "left",
-		"portrait": "spr_example_portrait",
+		"portraitType": "center",
+		"portrait": "port_temp",
 		"text": "Popular opinion will simply be that these are nothing but idle threats,^5 as they have happened previously.^9 The populace is not particularly worried.",
 		"textWait": "2"
 	},

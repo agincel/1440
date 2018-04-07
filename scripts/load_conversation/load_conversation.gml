@@ -89,7 +89,48 @@ if (type == "plain") {
 		
 		arr[arr_index++] = c;
 	}
-	
+} else if (type == "choice") {
+	for (var i = 1; i < ds_list_size(list); i++) {
+		var c = instance_create_depth(0, 0, 9999, struct_conversation);
+		if (i != ds_list_size(list) - 1) {
+			//if we haven't reached the very last one yet
+			c.type = "choice";
+			
+			var conversationNode = ds_list_find_value(list, i);
+			c.text = conversationNode[? "text"];
+			c.name = conversationNode[? "name"];
+			c.side = conversationNode[? "portraitType"];
+			c.portrait = conversationNode[? "portrait"];
+			var textWait = conversationNode[? "textWait"];
+			if (is_undefined(textWait)) {
+				textWait = 2; //default
+			} else {
+				textWait = real(textWait);	
+			}
+			c.textWait = textWait;
+		} else {
+			//last one, set to "yesno" and set relevant scripts
+			c.type = type;
+			c.choices = choices;
+			c.choiceScripts = choiceScripts;
+			c.choiceFiles = choiceFiles;
+			
+			var conversationNode = ds_list_find_value(list, i);
+			c.text = conversationNode[? "text"];
+			c.name = conversationNode[? "name"];
+			c.side = conversationNode[? "portraitType"];
+			c.portrait = conversationNode[? "portrait"];
+			var textWait = conversationNode[? "textWait"];
+			if (is_undefined(textWait)) {
+				textWait = 2; //default
+			} else {
+				textWait = real(textWait);	
+			}
+			c.textWait = textWait;
+		}
+		
+		arr[arr_index++] = c;
+	}
 }
 
 

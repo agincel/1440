@@ -28,3 +28,4 @@ if (currentCharacter > string_length(sourceString)) {
 } else {
 	alarm[1] = textWait + additionalDelay; //in textWait frames, increment again
 }
+
