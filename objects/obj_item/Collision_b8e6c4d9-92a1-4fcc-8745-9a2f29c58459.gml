@@ -8,4 +8,17 @@ if (!has_scanned) {
 	with (obj_register) {
 		total += other.price;	
 	}
+	
+	if (all_items_scanned()) {
+		// Begin Checkout
+		var tax_rate = 1.0725;
+		with (obj_register) {
+			total *= tax_rate;
+		}
+		
+		// Puts chash on counter
+		with (obj_scanner) {
+			instance_create_depth(x, bbox_top, -9999, obj_cash);
+		}
+	}
 }
