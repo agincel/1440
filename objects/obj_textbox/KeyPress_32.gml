@@ -21,7 +21,7 @@ if (textComplete && choiceLockout < 0) {
 			}
 			
 			if (!is_undefined(a.endFile) && a.endFile != -1 && a.endFile != "-1") {
-				load_conversation(a.endFile);	
+				load_conversation(a.endFile, 0);	
 			}
 			
 		} else if (a.type == "yesno") { //if yesno, check for valid yes/noScript/File, and execute if needed
@@ -48,7 +48,7 @@ if (textComplete && choiceLockout < 0) {
 				}
 				
 				if (!is_undefined(a.yesFile) && a.yesFile != -1 && a.yesFile != "-1") {
-					load_conversation(a.yesFile);	
+					load_conversation(a.yesFile, 0);	
 				}
 			}
 		} else if (a.type == "choice") {
@@ -71,7 +71,7 @@ if (textComplete && choiceLockout < 0) {
 				var cF = ds_list_find_value(a.choiceFiles, selected);
 				if (!is_undefined(cF) && cF != -1 && cF != "-1") {
 					//we were given an actual string for choiceFiles[selected], try to execute
-					load_conversation(cF);	
+					load_conversation(cF, 0);	
 				}
 			}
 		}

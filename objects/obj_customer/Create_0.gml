@@ -1,14 +1,15 @@
 /// @description Initializes new customer
 
-/// This object will likley become the parent
-/// to objects of real customers.
-
 goodbye_conversation = "checkedOutMessage.json";
 items = [obj_item, obj_item, obj_item];
-portrait = port_temp;
+portrait = port_generic;
 
-// Will be moved later to when customer enters the line
-var customerId = id;
-with (obj_current_customer) {
-	ds_queue_enqueue(customer_queue, customerId);
-}
+currentSpace = get_space(0);
+nextSpace = noone;
+
+movementCurrent = 0;
+movementTotal = room_speed * 1;
+shopping = false;
+
+leaving = false;
+linePosition = -1;

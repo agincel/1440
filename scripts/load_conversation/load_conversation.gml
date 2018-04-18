@@ -1,4 +1,5 @@
 ///@argument jsonFilePath
+///@argument type 0 for textbox 1 for news
 
 var json = read_json(argument0);
 var list = json[0];
@@ -133,8 +134,10 @@ if (type == "plain") {
 	}
 }
 
-
-textbox(arr); //actually create the textbox
+if (argument1 == 0)
+	textbox(arr); //actually create the textbox
+else if (argument1 == 1) 
+	news(arr);
 
 
 

@@ -3,7 +3,7 @@
 //todo, account for the double-wide room
 //for now, just hardcoding
 
-var tX = room_width / 2;
+var tX = (room_width - 240) / 2;
 var tY = room_height * 0.8;
 
 var t = instance_create_depth(tX, tY, -9999, obj_textbox);
