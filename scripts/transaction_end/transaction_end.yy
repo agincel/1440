@@ -1,8 +1,8 @@
 {
-    "id": "edae05de-20dd-4bac-a58c-418f328102f9",
+    "id": "d6ce552e-1755-4b6d-b435-ade8f748ea0a",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_lol",
+    "name": "transaction_end",
     "IsCompatibility": false,
     "IsDnD": false
 }

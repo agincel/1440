@@ -1,0 +1,16 @@
+[
+	{
+		"type": "plain",
+		"endScript": "transaction_end"
+	},
+	{
+		"name": "Customer",
+		"text": "Thank you!^5 Have a nice day!",
+		"textWait": "3"
+	},
+	{
+		"name": "Employee",
+		"text": "You're welcome,^3 you too!",
+		"textWait": "3"
+	}
+]

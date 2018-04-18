@@ -11,7 +11,7 @@ if (c == "\\") {
 	displayString += c;
 	currentCharacter += 1;
 } else if (c == "^") {
-	show_debug_message("adding delay");
+	// show_debug_message("adding delay");
 	currentCharacter += 1;
 	//this should be a 1 digit number, that is equal to the number of frames to add to delay
 	c = string_char_at(sourceString, currentCharacter);

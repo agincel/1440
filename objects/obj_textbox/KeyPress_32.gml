@@ -6,11 +6,11 @@ if (textComplete && choiceLockout < 0) {
 	if (array_length_1d(arr) > 1) {
 		//there's more conversation to be had
 		var new_arr = -1;
-		show_debug_message("Arr: " + string(arr));
+		// show_debug_message("Arr: " + string(arr));
 		for (var i = 0; i < array_length_1d(arr) - 1; i++) {
 			new_arr[i] = arr[i + 1];	
 		}
-		show_debug_message("New_arr: " + string(new_arr));
+		// show_debug_message("New_arr: " + string(new_arr));
 		textbox(new_arr);
 		instance_destroy(id);
 	} else {
@@ -30,8 +30,8 @@ if (textComplete && choiceLockout < 0) {
 					var asset = asset_get_index(a.noScript);
 					if (asset != -1)
 						script_execute(asset);
-					else
-						show_debug_message("Could not find script " + a.noScript);
+					/*else
+						show_debug_message("Could not find script " + a.noScript);/*
 				}
 				
 				if (!is_undefined(a.noFile) && a.noFile != -1 && a.noFile != "-1") {
@@ -43,8 +43,8 @@ if (textComplete && choiceLockout < 0) {
 					var asset = asset_get_index(a.yesScript)
 					if (asset != -1)
 						script_execute(asset);
-					else
-						show_debug_message("Could not find script " + a.yesScript);
+					/*else
+						show_debug_message("Could not find script " + a.yesScript);*/
 				}
 				
 				if (!is_undefined(a.yesFile) && a.yesFile != -1 && a.yesFile != "-1") {
@@ -61,8 +61,8 @@ if (textComplete && choiceLockout < 0) {
 					var asset = asset_get_index(cS);
 					if (asset != -1)
 						script_execute(asset);
-					else
-						show_debug_message("Could not find script " + cS);
+					/*else
+						show_debug_message("Could not find script " + cS);*/
 				}
 			}
 			

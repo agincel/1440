@@ -6,7 +6,9 @@
     "children": [
         "736d04e6-041e-48cf-929e-cd2b8a5dc9c9",
         "0f36b3c7-b274-4cd5-af25-d0b29aa59d29",
-        "cf665b05-18bb-46b2-a3fe-d3e6f2961358"
+        "cf665b05-18bb-46b2-a3fe-d3e6f2961358",
+        "475f12be-a9cf-41df-81d5-83f4ddcda083",
+        "d6ce552e-1755-4b6d-b435-ade8f748ea0a"
     ],
     "filterType": "GMScript",
     "folderName": "Checkout",

@@ -1,9 +1,9 @@
 /// @description process sourceString, start incrementing
 
 #region Load from arr
-show_debug_message(arr);
+// show_debug_message(arr);
 a = arr[0]; //if this is out of bounds it'll crash
-show_debug_message(arr);
+// show_debug_message(arr);
 sourceString = a.text;
 textWait = a.textWait;
 
@@ -41,7 +41,7 @@ while (lineStart + charsPerLine <= string_length(sourceString)) {
 		currentLineCharacter -= 1;	
 	}
 	//we're at the space character, replace it with a nbsp (can't be used otherwise, we don't care)
-	show_debug_message(currentLineCharacter);
+	/// show_debug_message(currentLineCharacter);
 	sourceString = string_delete(sourceString, currentLineCharacter, 1);
 	sourceString = string_insert(nbsp, sourceString, currentLineCharacter);
 		
@@ -51,7 +51,7 @@ while (lineStart + charsPerLine <= string_length(sourceString)) {
 
 
 //now replace nbsp with newlines (didn't do it before because \n is two characters)
-show_debug_message(sourceString);
+// show_debug_message(sourceString);
 sourceString = string_replace_all(sourceString, nbsp, "\n");
 #endregion
 

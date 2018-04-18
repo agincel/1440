@@ -1,6 +1,6 @@
 ///@argument path the path to the json file starting from /IncludedFiles as a string
 
-show_debug_message(argument0);
+// show_debug_message(argument0);
 var theJsonFile = file_text_open_read(argument0);
 var theData = "";
 while (!file_text_eof(theJsonFile)) {
