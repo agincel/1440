@@ -2,11 +2,10 @@
 // You can write your code in this editor
 
 var items = customer.items;
-var itemMinX = 672;
-var itemMaxX = 800;
-var itemMinY = 352;
-var itemMaxY = 408;
+var itemRangeX = 75;
+var itemRangeY = 25;
+
 for (var i = 0; i < array_length_1d(items); i++) {
-	instance_create_depth(itemMinX + random(itemMaxX - itemMinX), 
-							itemMinY + random(itemMaxY - itemMinY), 0, items[i]);
+	instance_create_depth(obj_money_place.x + irandom_range(-1 * itemRangeX, itemRangeX), 
+							obj_money_place.y + irandom_range(-1 * itemRangeY, itemRangeY), 0, items[i]);
 }

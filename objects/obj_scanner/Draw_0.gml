@@ -6,7 +6,7 @@ draw_sprite(sprite_index, 0, x, y);
 
 if (risingOpacity) {
 	currentOpacity += deltaOpacity;
-	if (currentOpacity >= 1)
+	if (currentOpacity >= maxNormalOpacity)
 		risingOpacity = false;
 } else {
 	currentOpacity -= deltaOpacity;

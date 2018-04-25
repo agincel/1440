@@ -3,5 +3,6 @@
 
 
 currentOpacity = 0;
-deltaOpacity = 0.1;
+deltaOpacity = 0.025;
+maxNormalOpacity = 0.5;
 risingOpacity = true;

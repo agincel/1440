@@ -1,7 +1,7 @@
 /// @argument spaceToChooseFrom
 
 var target = noone;
-while (target == noone && target != 0) {
+while (target <= 0 || xInArr(target, recentSpaceQueue)) {
 	var i = irandom_range(0, 3);
 	if (i == 0 && argument0.up != noone) {
 		target = argument0.up;
@@ -13,4 +13,6 @@ while (target == noone && target != 0) {
 		target = argument0.down;
 	}
 }
+
+
 return target;
