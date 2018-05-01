@@ -10,3 +10,5 @@ movingIn = 0;
 movingInTotal = room_speed * 1;
 isMovingIn = false;
 isMovingOut = false;
+
+sprite_index = noone;

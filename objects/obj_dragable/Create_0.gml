@@ -3,7 +3,6 @@
 global.itemPriority = noone;
 
 is_held = false;
-returning = false;
 
 x_offset = 0;
 y_offset = 0;

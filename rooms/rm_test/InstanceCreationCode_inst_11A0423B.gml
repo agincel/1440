@@ -1,4 +1,5 @@
 ID = 4;
-down = 1
-right = 5
-up = 7
+down = 1;
+right = 5;
+up = 7;
+optimal = right;

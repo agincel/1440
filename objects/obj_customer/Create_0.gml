@@ -3,7 +3,10 @@
 randomize();
 
 goodbye_conversation = "checkedOutMessage.json";
-items = [obj_item, obj_item, obj_item];
+items = -1;
+for (var i = 0; i < irandom_range(1, 5); i++) {
+	items[i] = obj_item;	
+}
 portrait = port_generic;
 
 currentSpace = get_space(0);
@@ -23,3 +26,5 @@ recentSpaceQueueMaxSize = 2;
 for (var i = 0; i < recentSpaceQueueMaxSize; i++) {
 	recentSpaceQueue[i] = -1;	
 }
+
+optimal = false;

@@ -6,7 +6,7 @@ if (!has_scanned) {
 	audio_play_sound(snd_scan, 0, false);
 	
 	with (obj_register) {
-		total += other.price;	
+		total += other.prices[other.sprite_index];	
 	}
 	other.currentOpacity = 1;
 	other.risingOpacity = false;

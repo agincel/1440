@@ -7,3 +7,4 @@ right = noone;
 down = noone;
 
 items = [];
+optimal = noone;

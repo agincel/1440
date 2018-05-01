@@ -10,7 +10,8 @@
         "b8628e0f-b3cd-4277-8fcd-68c1574f22f8",
         "45032354-f0fa-4ebd-998b-778b9a4761a9",
         "eab85def-77df-4492-bacd-483e672db1f3",
-        "f01077fb-58cc-4955-9719-28e94662574b"
+        "f01077fb-58cc-4955-9719-28e94662574b",
+        "ef106be4-afa3-4015-b27b-84d937dca9e8"
     ],
     "filterType": "GMSprite",
     "folderName": "Checkout",

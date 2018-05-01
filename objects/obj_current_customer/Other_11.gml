@@ -8,3 +8,8 @@ with (customer) {
 customer = noone;
 textbox_active = false;
 sprite_index = spr_port_empty;
+with (obj_fade) {
+	if (!timeline_running && timeline_exists(timeline_index)) {
+		timeline_running = true;	
+	}
+}

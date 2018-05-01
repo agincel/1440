@@ -1,0 +1,1 @@
+textFadingIn = true;
