@@ -2,7 +2,18 @@
 
 randomize();
 
-goodbye_conversation = "checkedOutMessage.json";
+goodbye_conversation = "Textbox/Checkout/Generics/generic";
+//generic_conversations = ["generic1.json", "generic2.json", "generic3.json"];
+
+var numConvs = 0;
+var fname = goodbye_conversation + string(numConvs) + ".json";
+while (file_exists(fname)) {
+	generic_conversations[numConvs] = goodbye_conversation + string(numConvs) + ".json";
+	numConvs++;
+	fname = goodbye_conversation + string(numConvs) + ".json";
+}
+goodbye_conversation += string(irandom_range(0, numConvs - 1)) + ".json";
+
 items = -1;
 for (var i = 0; i < irandom_range(1, 5); i++) {
 	items[i] = obj_item;	

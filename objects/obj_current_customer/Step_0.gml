@@ -2,7 +2,6 @@
 
 // Load new customer
 if (customer == noone && !ds_queue_empty(customer_queue)) {
-	show_debug_message("Customer at counter");
 	customer = ds_queue_dequeue(customer_queue);
 	with (obj_customer) {
 		if (linePosition > 0)
@@ -40,6 +39,5 @@ if (isMovingOut) {
 // End transaction with current customer
 if (customer != noone && !instance_exists(obj_dragable) && !textbox_active && !isMovingIn) {
 	textbox_active = true;
-	show_debug_message("Customer leaving counter");
 	load_conversation(customer.goodbye_conversation, 0);
 }

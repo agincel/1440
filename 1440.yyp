@@ -63,6 +63,22 @@
             }
         },
         {
+            "Key": "05c9a231-c887-4e9c-9a86-bc197546ceb4",
+            "Value": {
+                "id": "e9dafeea-ae9c-4f84-9831-ec79fe14cd3d",
+                "resourcePath": "datafiles_yy\\Textbox\\Checkout\\Generics\\generic2.json.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "0b589760-de23-43c3-b2d8-e8f9cfe7583b",
+            "Value": {
+                "id": "b83a8816-d8f9-45ad-b464-9f265b67e442",
+                "resourcePath": "datafiles_yy\\Textbox\\Checkout\\Generics\\generic1.json.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "0d70e6b9-48c9-4886-9a0d-7c459b1e5fa6",
             "Value": {
                 "id": "9a49cc2f-c41c-4744-9654-c16beb082641",
@@ -207,6 +223,14 @@
             }
         },
         {
+            "Key": "31b4577d-39e9-4f00-8cfe-dab55b41e7b7",
+            "Value": {
+                "id": "49e3daea-a2d1-4e2d-88cd-a3c44fcd9e56",
+                "resourcePath": "datafiles_yy\\Textbox\\News\\ticker2.json.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "3250193e-4209-40b9-b085-89ea87056f04",
             "Value": {
                 "id": "901b6b02-ccb7-43ec-b2fc-713b64fea26a",
@@ -231,6 +255,14 @@
             }
         },
         {
+            "Key": "3a440002-de36-4024-8c73-bb31d6fd9095",
+            "Value": {
+                "id": "0afcf2ec-3c18-434e-b720-163120e3c9c2",
+                "resourcePath": "views\\3a440002-de36-4024-8c73-bb31d6fd9095.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3c98160d-2a4a-4523-9b22-983914835f8f",
             "Value": {
                 "id": "61391b07-944d-45b2-b206-3f0a7d087506",
@@ -244,6 +276,14 @@
                 "id": "d41e15b6-be67-406b-90eb-6c60b1a48c7d",
                 "resourcePath": "views\\3ee183b1-10c6-4431-9326-0fac43ce3497.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "435b2f45-38ca-4817-9c30-ed0ec76db793",
+            "Value": {
+                "id": "1a9ad514-979e-47a2-b3ee-dfb8c905616d",
+                "resourcePath": "datafiles_yy\\Textbox\\News\\ticker1-reply.json.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -447,6 +487,14 @@
             }
         },
         {
+            "Key": "84a1c18a-ab30-4953-9298-248a4d2ecb41",
+            "Value": {
+                "id": "e6490a37-401e-41f9-b367-05cd21a4b8b8",
+                "resourcePath": "views\\84a1c18a-ab30-4953-9298-248a4d2ecb41.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "84f7e400-ff11-4fc6-8725-01a7e515efac",
             "Value": {
                 "id": "b618781b-74ae-4c97-86f0-8be2bfcbebd2",
@@ -547,6 +595,14 @@
             "Value": {
                 "id": "67ca1d73-7daa-4060-b683-11b2c8677750",
                 "resourcePath": "datafiles_yy\\plainMessage.json.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "9fdd8292-7739-4bea-a5d2-1bbb83479c0d",
+            "Value": {
+                "id": "a8186e24-f942-46d5-95bc-91113480d023",
+                "resourcePath": "datafiles_yy\\Textbox\\News\\ticker1.json.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -671,6 +727,14 @@
             }
         },
         {
+            "Key": "c321b764-964a-4291-a4e7-af8caf3e3ece",
+            "Value": {
+                "id": "1e1d9aa7-e5d3-4dcf-8fdc-f50fcdfba204",
+                "resourcePath": "datafiles_yy\\Textbox\\News\\ticker2-reply.json.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "cc269542-1854-44d8-b23e-0308938f80a1",
             "Value": {
                 "id": "a2cfb959-d90f-4009-8b23-a560bc5d671b",
@@ -732,6 +796,14 @@
                 "id": "8d9ae272-0029-41c1-bfc0-9c9a62361b4a",
                 "resourcePath": "datafiles_yy\\yesno1.json.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "dc4a1d52-4e02-44f2-ac0b-5b499bc73f44",
+            "Value": {
+                "id": "0627397e-0bb9-44be-a297-819581f97c2b",
+                "resourcePath": "views\\dc4a1d52-4e02-44f2-ac0b-5b499bc73f44.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -799,6 +871,14 @@
             }
         },
         {
+            "Key": "e68d1d6a-1f6e-406b-bb32-f52be3439e35",
+            "Value": {
+                "id": "40a93959-0ae9-43f8-979d-80fd13658144",
+                "resourcePath": "views\\e68d1d6a-1f6e-406b-bb32-f52be3439e35.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "eab85def-77df-4492-bacd-483e672db1f3",
             "Value": {
                 "id": "0c356feb-f10f-44c4-88ad-62c56bc78912",
@@ -860,6 +940,14 @@
                 "id": "dba8ee3a-2378-44bd-a249-83504e03257e",
                 "resourcePath": "objects\\obj_counter\\obj_counter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fa72d299-b213-4473-952a-3289d3369f6a",
+            "Value": {
+                "id": "dcd2042e-9fe9-49aa-93b2-269ddce0e4fa",
+                "resourcePath": "datafiles_yy\\Textbox\\Checkout\\Generics\\generic0.json.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {

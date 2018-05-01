@@ -30,12 +30,12 @@ if (textComplete && choiceLockout < 0) {
 					var asset = asset_get_index(a.noScript);
 					if (asset != -1)
 						script_execute(asset);
-					/*else
-						show_debug_message("Could not find script " + a.noScript);/*
+					else
+						show_debug_message("Could not find script " + a.noScript);
 				}
 				
 				if (!is_undefined(a.noFile) && a.noFile != -1 && a.noFile != "-1") {
-					load_conversation(a.noFile);	
+					load_conversation(a.noFile, 0);	
 				}
 				
 			} else if (selected == 1) {
@@ -43,8 +43,8 @@ if (textComplete && choiceLockout < 0) {
 					var asset = asset_get_index(a.yesScript)
 					if (asset != -1)
 						script_execute(asset);
-					/*else
-						show_debug_message("Could not find script " + a.yesScript);*/
+					else
+						show_debug_message("Could not find script " + a.yesScript);
 				}
 				
 				if (!is_undefined(a.yesFile) && a.yesFile != -1 && a.yesFile != "-1") {
@@ -61,8 +61,8 @@ if (textComplete && choiceLockout < 0) {
 					var asset = asset_get_index(cS);
 					if (asset != -1)
 						script_execute(asset);
-					/*else
-						show_debug_message("Could not find script " + cS);*/
+					else
+						show_debug_message("Could not find script " + cS);
 				}
 			}
 			
