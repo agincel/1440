@@ -6,7 +6,8 @@
     "children": [
         "8cd8fbfd-0792-4134-90a3-e06a23c08b13",
         "fbc4bfa8-23e3-4c98-a318-9892b158647e",
-        "958a4c3e-8c73-41ab-a863-46919320ae02"
+        "958a4c3e-8c73-41ab-a863-46919320ae02",
+        "8bd14deb-ff37-43e0-86fa-7c9a6265b696"
     ],
     "filterType": "GMScript",
     "folderName": "Textbox",

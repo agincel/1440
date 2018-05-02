@@ -12,3 +12,7 @@ isMovingIn = false;
 isMovingOut = false;
 
 sprite_index = noone;
+
+global.newsOverride = "";
+global.textOverride = "";
+global.customersToContinue = 0;

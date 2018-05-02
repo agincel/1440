@@ -9,7 +9,9 @@ customer = noone;
 textbox_active = false;
 sprite_index = spr_port_empty;
 with (obj_fade) {
-	if (!timeline_running && timeline_exists(timeline_index)) {
+	global.customersToContinue -= 1;
+	
+	if (global.customersToContinue <= 0 && !timeline_running && timeline_exists(timeline_index)) {
 		timeline_running = true;	
 	}
 }

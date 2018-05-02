@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "8bd14deb-ff37-43e0-86fa-7c9a6265b696",
+            "Value": {
+                "id": "0046a069-fb28-4d71-9910-1e0947d82cf2",
+                "resourcePath": "views\\8bd14deb-ff37-43e0-86fa-7c9a6265b696.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8cd8fbfd-0792-4134-90a3-e06a23c08b13",
             "Value": {
                 "id": "295de1f0-1599-4cba-895f-4fb11da9094f",
@@ -887,6 +895,14 @@
             }
         },
         {
+            "Key": "eb3feb68-9fa7-4c2a-836e-987ec79268c6",
+            "Value": {
+                "id": "70c41164-7a00-4a82-8551-352742f1c244",
+                "resourcePath": "scripts\\news_reaction\\news_reaction.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ec1d5014-fb30-407f-aeab-841f5f0c8a75",
             "Value": {
                 "id": "c01e135d-a01a-4a1d-af31-ca842c84aba6",
@@ -979,6 +995,7 @@
         "8cd8fbfd-0792-4134-90a3-e06a23c08b13",
         "fbc4bfa8-23e3-4c98-a318-9892b158647e",
         "958a4c3e-8c73-41ab-a863-46919320ae02",
+        "eb3feb68-9fa7-4c2a-836e-987ec79268c6",
         "736d04e6-041e-48cf-929e-cd2b8a5dc9c9",
         "0f36b3c7-b274-4cd5-af25-d0b29aa59d29",
         "cf665b05-18bb-46b2-a3fe-d3e6f2961358",

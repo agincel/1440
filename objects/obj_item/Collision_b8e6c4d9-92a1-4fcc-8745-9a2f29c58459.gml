@@ -18,7 +18,7 @@ if (!has_scanned) {
 			total *= tax_rate;
 		}
 		
-		// Puts chash on counter
+		// Puts cash on counter
 		with (obj_money_place) {
 			instance_create_depth(x, y, -9999, obj_cash);
 		}

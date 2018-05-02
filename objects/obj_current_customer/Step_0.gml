@@ -39,5 +39,11 @@ if (isMovingOut) {
 // End transaction with current customer
 if (customer != noone && !instance_exists(obj_dragable) && !textbox_active && !isMovingIn) {
 	textbox_active = true;
-	load_conversation(customer.goodbye_conversation, 0);
+	if (global.newsOverride != "") {
+		load_conversation(global.newsOverride, 1);
+	} else if (global.textOverride != "") {
+		load_conversation(global.textOverride, 0);
+	} else {
+		load_conversation(customer.goodbye_conversation, 0);
+	}
 }
