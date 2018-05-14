@@ -39,3 +39,5 @@ for (var i = 0; i < recentSpaceQueueMaxSize; i++) {
 }
 
 optimal = false;
+stepsTaken = 0;
+maxSteps = 7;

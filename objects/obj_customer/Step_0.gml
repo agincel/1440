@@ -1,10 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (nextSpace == noone && !shopping && !leaving && alarm[0] < 0) { 
+if (nextSpace == noone && !shopping && !leaving && alarm[0] < 0) {
+	if (stepsTaken > maxSteps)
+		optimal = true;
+
 	//select a new space
 	nextSpace = choose_direction(currentSpace);
 	nextSpace = get_space(nextSpace);
+	stepsTaken++;
 	movementCurrent = 0;
 	alarm[0] = spaceDelay;
 } else if (nextSpace == noone && leaving) {
