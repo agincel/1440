@@ -10,7 +10,7 @@ if (nextSpace == noone && !shopping && !leaving && alarm[0] < 0) {
 	nextSpace = get_space(nextSpace);
 	stepsTaken++;
 	movementCurrent = 0;
-	alarm[0] = spaceDelay;
+	alarm[0] = random(maxSpaceDelay);
 } else if (nextSpace == noone && leaving) {
 	var spaces = -1;
 	spaces[10] = 6;
