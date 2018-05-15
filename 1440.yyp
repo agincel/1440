@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "51d51ff7-205b-4e1b-9830-0ca85e3b82fa",
+            "Value": {
+                "id": "68927650-67c8-4385-92f9-56dabaaf4449",
+                "resourcePath": "scripts\\scr_stop_snd_emergency\\scr_stop_snd_emergency.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "52f8e628-12b4-4f02-b9e0-5f64a6570955",
             "Value": {
                 "id": "29f65fed-37fc-4945-a84f-710835086081",
@@ -516,6 +524,14 @@
                 "id": "9c00cb35-7d87-4385-80c5-5cd611a4b972",
                 "resourcePath": "views\\7aa151bb-3a07-4240-a110-a29f71509323.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7da22ca1-307e-4697-9263-82e6b76bd129",
+            "Value": {
+                "id": "2f27fe3a-b39c-426a-8493-28ce6c7eac57",
+                "resourcePath": "sounds\\snd_emergency\\snd_emergency.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -687,14 +703,6 @@
             }
         },
         {
-            "Key": "96f4212f-b6b9-4e07-827e-b6663f4f4734",
-            "Value": {
-                "id": "447888d6-d670-4ea3-866a-6352cbfc8027",
-                "resourcePath": "views\\96f4212f-b6b9-4e07-827e-b6663f4f4734.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "98b8c265-7bd2-4b49-859f-793d6672003a",
             "Value": {
                 "id": "b139bda1-509a-4c66-9124-cae28b72b5bb",
@@ -804,6 +812,14 @@
                 "id": "67c1e967-8dff-47e4-baea-235d5eca272d",
                 "resourcePath": "sprites\\spr_countertop\\spr_countertop.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ade2b39b-06f1-41eb-a82d-6e4d5cd0ba2d",
+            "Value": {
+                "id": "e101c5d9-c583-46cf-a99e-a8eed12b152d",
+                "resourcePath": "sounds\\snd_explosion\\snd_explosion.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1202,7 +1218,8 @@
         "95e90e86-4d31-45a5-86aa-d11696cae62f",
         "47cc2b78-ff58-4c9d-8a3c-6ef66a39cf20",
         "25a62b9b-a76c-4ce3-9926-250926dad8b5",
-        "0d12111f-9ae8-4461-b513-162bf88641ba"
+        "0d12111f-9ae8-4461-b513-162bf88641ba",
+        "51d51ff7-205b-4e1b-9830-0ca85e3b82fa"
     ],
     "tutorial": ""
 }

@@ -14,7 +14,7 @@ while (file_exists(fname)) {
 }
 goodbye_conversation += string(irandom_range(0, numConvs - 1)) + ".json";
 
-items = -1;
+items = [];
 for (var i = 0; i < irandom_range(1, 5); i++) {
 	items[i] = obj_item;	
 }

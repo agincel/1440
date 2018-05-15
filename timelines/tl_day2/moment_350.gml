@@ -5,7 +5,9 @@ with (obj_customer) {
 	if (nextSpace == get_space(10) && !hasMoved) {
 		hasMoved = true;
 		stop = false;
-		//todo remove all of their items
+		
+		items = [];
+		
 		global.textOverride = "Textbox/Nuke/2-customer.json";
 	}
 }

@@ -21,7 +21,7 @@ if (nextSpace == noone && !shopping && !leaving && alarm[0] < 0) {
 		nextSpace = get_space(spaces[currentSpace.ID]);
 		movementCurrent = 0;
 	} else {
-		instance_destroy();	
+		instance_destroy();
 	}
 }
 

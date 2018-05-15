@@ -20,7 +20,6 @@ name = !is_undefined(a.name) ? a.name : name;
 
 if (!is_undefined(a.name) && a.name != "-1" && a.name != -1 && !(textComplete && a.type == "choice" && array_length_1d(arr) == 1)) {
 	//draw name
-	show_debug_message(a.name);
 	var cX = bbox_right - sprite_get_width(spr_name_box) / 2;
 	if (a.side == "right") {
 		cX = bbox_left + sprite_get_width(spr_name_box) / 2;	
