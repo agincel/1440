@@ -10,8 +10,9 @@ if (customer == noone && !ds_queue_empty(customer_queue)) {
 	
 	sprite_index = customer.portrait;
 	image_speed = 0;
+	
 	if (sprite_index == port_generic) {
-		image_index = irandom_range(0, sprite_get_number(sprite_index) - 1);	
+		image_index = customer.i_index;
 	}
 	
 	movingIn = 0;

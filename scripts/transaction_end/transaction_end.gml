@@ -1,5 +1,6 @@
 with (obj_current_customer) {
 	isMovingOut = true;	
 	customer.leaving = true;
-	instance_destroy(obj_bag);
 }
+
+obj_bag.image_index = 0;

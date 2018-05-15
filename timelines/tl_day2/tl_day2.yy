@@ -5,23 +5,6 @@
     "name": "tl_day2",
     "momentList": [
         {
-            "id": "ee832ce9-969b-41c1-8598-7d94b0a84a9d",
-            "modelName": "GMMoment",
-            "mvc": "1.0",
-            "name": "",
-            "evnt": {
-                "id": "08a51185-b7da-4764-87b0-6a54bcf72452",
-                "modelName": "GMEvent",
-                "mvc": "1.0",
-                "IsDnD": false,
-                "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 0,
-                "eventtype": 0,
-                "m_owner": "98b8c265-7bd2-4b49-859f-793d6672003a"
-            },
-            "moment": 0
-        },
-        {
             "id": "fa138fdc-17bb-4ad3-a784-e5d3c253a75d",
             "modelName": "GMMoment",
             "mvc": "1.0",

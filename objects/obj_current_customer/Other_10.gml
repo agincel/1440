@@ -12,7 +12,7 @@ if (numItems > 0) {
 							  obj_money_place.y + irandom_range(-1 * itemRangeY, itemRangeY), 0, items[i]);
 	}
 	
-	instance_create_depth(800, 320, 0, obj_bag);
+	obj_bag.image_index = 1;
 }
 
 
