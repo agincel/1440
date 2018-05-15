@@ -26,7 +26,8 @@ if (nextSpace == noone && !shopping && !leaving && alarm[0] < 0) {
 }
 
 if (nextSpace != noone && alarm[0] < 0) {
-	movementCurrent += 1;
+	if (!stop)
+		movementCurrent += 1;
 	x = lerp(currentSpace.x, nextSpace.x, movementCurrent / movementTotal);
 	y = lerp(currentSpace.y, nextSpace.y, movementCurrent / movementTotal);
 	if (movementCurrent >= movementTotal) {

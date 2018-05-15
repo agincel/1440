@@ -10,4 +10,10 @@ for (var i = 0; i < array_length_1d(items); i++) {
 							obj_money_place.y + irandom_range(-1 * itemRangeY, itemRangeY), 0, items[i]);
 }
 
+
+if (global.newsOverride != "") {
+	load_conversation(global.newsOverride, 1);
+	global.newsOverride = "";
+}
+
 instance_create_depth(800, 320, 0, obj_bag);

@@ -23,3 +23,5 @@ selected = 0; // 0|1 for no|yes, or 0|1|2|... for choices
 selectedMax = 1; //default for yes/no, really important for choice type
 
 choiceLockout = -1; //one second where you can't select a choice, might tweak for better playability
+
+depth = -9999;

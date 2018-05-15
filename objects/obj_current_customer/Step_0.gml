@@ -43,6 +43,7 @@ if (customer != noone && !instance_exists(obj_dragable) && !textbox_active && !i
 		load_conversation(global.newsOverride, 1);
 	} else if (global.textOverride != "") {
 		load_conversation(global.textOverride, 0);
+		global.textOverride = "";
 	} else {
 		load_conversation(customer.goodbye_conversation, 0);
 	}

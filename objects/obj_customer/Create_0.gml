@@ -30,6 +30,8 @@ shopping = false;
 leaving = false;
 linePosition = -1;
 
+stop = false;
+
 maxSpaceDelay = room_speed * 1;
 
 recentSpaceQueue = []

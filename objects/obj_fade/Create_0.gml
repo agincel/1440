@@ -15,3 +15,4 @@ fadingIn = false;
 fadingOut = false;
 fadeScript = scr_textfade;
 
+depth = -9998

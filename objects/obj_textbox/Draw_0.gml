@@ -17,8 +17,10 @@ draw_set_valign(fa_top);
 
 draw_text_ext(startX, startY, displayString, 28, sprite_get_width(sprite_index) - (margin_side * 2));
 name = !is_undefined(a.name) ? a.name : name;
+
 if (!is_undefined(a.name) && a.name != "-1" && a.name != -1 && !(textComplete && a.type == "choice" && array_length_1d(arr) == 1)) {
 	//draw name
+	show_debug_message(a.name);
 	var cX = bbox_right - sprite_get_width(spr_name_box) / 2;
 	if (a.side == "right") {
 		cX = bbox_left + sprite_get_width(spr_name_box) / 2;	
@@ -28,7 +30,7 @@ if (!is_undefined(a.name) && a.name != "-1" && a.name != -1 && !(textComplete &&
 	draw_set_valign(fa_middle);
 	draw_text(cX, bbox_top - sprite_get_height(spr_name_box) / 2, a.name);
 	draw_set_valign(fa_top);
-} else if (!(textComplete && a.type == "choice" && array_length_1d(arr) == 1)) {
+} else if (!(textComplete && a.type == "choice" && array_length_1d(arr) == 1) && a.name != "-1" && a.name != -1) {
 	draw_sprite(spr_name_box, 0, bbox_right - sprite_get_width(spr_name_box) / 2, bbox_top);
 }
 

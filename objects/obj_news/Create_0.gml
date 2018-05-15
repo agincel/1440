@@ -12,3 +12,11 @@ arr = -1; //this will end up being an array of struct_conversations
 a = -1;
 textComplete = false;
 alarm[0] = 1;
+
+textX = sprite_width;
+width = sprite_width; //will add text width soon
+
+xPerFrame = 2;
+movedX = 0;
+
+depth = -9997;
