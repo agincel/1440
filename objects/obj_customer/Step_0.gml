@@ -46,6 +46,8 @@ if (nextSpace != noone && alarm[0] < 0) {
 			if (obj_current_customer.customer != noone)
 				linePosition += 1;
 			event_user(0);
+		} else if (currentSpace.ID == 0) {
+			instance_destroy();	
 		}
 	}
 }

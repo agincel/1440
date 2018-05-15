@@ -11,5 +11,5 @@ with (obj_customer) {
 		global.textOverride = "Textbox/Nuke/2-customer.json";
 	}
 }
-
+global.customersToContinue = 999; //don't continue the timeline via customers leaving
 timeline_running = false;

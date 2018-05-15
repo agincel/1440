@@ -1,6 +1,6 @@
 /// @description Increment character by one, display new string. 
 //If at end of string, prompt user to either select a dialog option or continue.
-
+/*
 var c = string_char_at(sourceString, currentCharacter);
 var additionalDelay = 0;
 if (c == "\\") {
@@ -33,3 +33,4 @@ if (currentCharacter > string_length(sourceString)) {
 	alarm[1] = textWait + floor(additionalDelay); //in textWait frames, increment again
 }
 
+*/
