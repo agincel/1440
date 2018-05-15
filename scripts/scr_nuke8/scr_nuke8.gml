@@ -7,3 +7,11 @@ with (obj_fade) {
 with (obj_news) {
 	instance_destroy();	
 }
+
+with (obj_customer) {
+	instance_destroy();
+}
+
+with (obj_item) {
+	instance_destroy();	
+}

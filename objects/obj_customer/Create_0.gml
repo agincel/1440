@@ -63,3 +63,5 @@ optimal = false;
 stepsTaken = 0;
 maxSteps = 7;
 #endregion
+
+alarm[1] = movementTotal / 2; //alarm1 plays doorbell sound

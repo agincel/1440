@@ -2,7 +2,7 @@
     "id": "c5c67de8-a6f9-409c-9e43-025871a0ee2d",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite25",
+    "name": "spr_color_palette",
     "For3D": false,
     "HTile": false,
     "VTile": false,

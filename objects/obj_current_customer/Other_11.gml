@@ -8,10 +8,12 @@ with (customer) {
 customer = noone;
 textbox_active = false;
 sprite_index = spr_port_empty;
-with (obj_fade) {
-	global.customersToContinue -= 1;
+if (!debug) {
+	with (obj_fade) {
+		global.customersToContinue -= 1;
 	
-	if (global.customersToContinue <= 0 && !timeline_running && timeline_exists(timeline_index)) {
-		timeline_running = true;	
+		if (global.customersToContinue <= 0 && !timeline_running && timeline_exists(timeline_index)) {
+			timeline_running = true;	
+		}
 	}
 }

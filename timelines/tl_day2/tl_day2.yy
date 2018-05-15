@@ -134,11 +134,11 @@
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 560,
+                "enumb": 500,
                 "eventtype": 0,
                 "m_owner": "98b8c265-7bd2-4b49-859f-793d6672003a"
             },
-            "moment": 560
+            "moment": 500
         }
     ]
 }
