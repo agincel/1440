@@ -10,7 +10,9 @@
         "c5512388-73de-4076-9b98-a1bf46acb545",
         "8f9d081d-d584-4a91-a952-d36b6c64f4e9",
         "4a00eb15-4590-4e5e-b820-ec8e6008d43b",
-        "6346cfc0-27c1-4aa7-b004-632d18d49405"
+        "6346cfc0-27c1-4aa7-b004-632d18d49405",
+        "0a472920-4021-4661-96cb-88b0b7a00a4d",
+        "a99175aa-8e39-4ebd-a322-d9caa40a6445"
     ],
     "filterType": "GMIncludedFile",
     "folderName": "Textbox",

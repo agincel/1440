@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_test",
+    "name": "rm_store",
     "id": "6c5a9d77-8ba7-4133-a1f4-aa1fb756ed79",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

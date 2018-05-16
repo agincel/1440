@@ -2,7 +2,7 @@
 
 var items = customer.items;
 var itemRangeX = 75;
-var itemRangeY = 25;
+var itemRangeY = 18;
 
 var numItems = array_length_1d(items);
 
@@ -21,3 +21,6 @@ if (global.newsOverride != "") {
 	global.newsOverride = "";
 }
 
+if (customer.hello_news != "") {
+	load_conversation(customer.hello_news, 1);
+}

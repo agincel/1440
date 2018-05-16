@@ -98,7 +98,7 @@
             "Key": "0a472920-4021-4661-96cb-88b0b7a00a4d",
             "Value": {
                 "id": "7011957a-2f52-4ed8-bf22-e3d5a56f727a",
-                "resourcePath": "datafiles_yy\\adam.json.yy",
+                "resourcePath": "datafiles_yy\\Textbox\\adam.json.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -527,14 +527,6 @@
             }
         },
         {
-            "Key": "693d15d6-4068-4cb3-bad3-7861151975bc",
-            "Value": {
-                "id": "6866dd2c-ac1e-4ab1-8c4f-7571b8054ffc",
-                "resourcePath": "datafiles_yy\\plainMessage2.json.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "6a8e2661-eb70-43b5-88a6-34f554e62ecd",
             "Value": {
                 "id": "89069229-d249-444f-8d34-f761022031e8",
@@ -562,7 +554,7 @@
             "Key": "6c5a9d77-8ba7-4133-a1f4-aa1fb756ed79",
             "Value": {
                 "id": "c029fafc-741c-47f4-aea9-4958062eff92",
-                "resourcePath": "rooms\\rm_test\\rm_test.yy",
+                "resourcePath": "rooms\\rm_store\\rm_store.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -879,14 +871,6 @@
             }
         },
         {
-            "Key": "9eff2cfb-223d-4443-8c51-f21ebf94bb99",
-            "Value": {
-                "id": "67ca1d73-7daa-4060-b683-11b2c8677750",
-                "resourcePath": "datafiles_yy\\plainMessage.json.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "9fdd8292-7739-4bea-a5d2-1bbb83479c0d",
             "Value": {
                 "id": "a8186e24-f942-46d5-95bc-91113480d023",
@@ -956,6 +940,14 @@
                 "id": "59254eb3-d6e9-4ace-8b8d-fb6186e31ff0",
                 "resourcePath": "sprites\\spr_customer_dot\\spr_customer_dot.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a99175aa-8e39-4ebd-a322-d9caa40a6445",
+            "Value": {
+                "id": "0608eda2-28dd-4eff-9559-fe6b78678471",
+                "resourcePath": "datafiles_yy\\Textbox\\adam-news.json.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1143,14 +1135,6 @@
             }
         },
         {
-            "Key": "cc269542-1854-44d8-b23e-0308938f80a1",
-            "Value": {
-                "id": "a2cfb959-d90f-4009-8b23-a560bc5d671b",
-                "resourcePath": "datafiles_yy\\checkedOutMessage.json.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "3efc5b56-124e-4ffd-9ba6-f8ccc69e3104",
@@ -1220,14 +1204,6 @@
                 "id": "15c4fb2f-2bc8-433a-921e-c7ec725933dd",
                 "resourcePath": "scripts\\transaction_end\\transaction_end.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "db454c22-6a9e-4d3b-b57f-7ba798a5ac0a",
-            "Value": {
-                "id": "8d9ae272-0029-41c1-bfc0-9c9a62361b4a",
-                "resourcePath": "datafiles_yy\\yesno1.json.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1332,14 +1308,6 @@
                 "id": "70c41164-7a00-4a82-8551-352742f1c244",
                 "resourcePath": "scripts\\news_reaction\\news_reaction.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "ec1d5014-fb30-407f-aeab-841f5f0c8a75",
-            "Value": {
-                "id": "c01e135d-a01a-4a1d-af31-ca842c84aba6",
-                "resourcePath": "datafiles_yy\\news1.json.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {

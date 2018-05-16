@@ -17,4 +17,4 @@ global.newsOverride = "";
 global.textOverride = "";
 global.customersToContinue = 0;
 
-debug = false;
+hasCreatedAdam = false;

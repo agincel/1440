@@ -3,4 +3,6 @@ with (obj_current_customer) {
 	customer.leaving = true;
 }
 
-obj_bag.image_index = 0;
+with (obj_bag) {
+	image_index = 0;	
+}

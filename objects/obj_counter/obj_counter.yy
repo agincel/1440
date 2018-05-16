@@ -5,26 +5,6 @@
     "name": "obj_counter",
     "eventList": [
         {
-            "id": "b8c27322-d659-43a0-beb2-5ba83509866e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 89,
-            "eventtype": 9,
-            "m_owner": "f8f6d2fc-240f-4a4c-9793-f11f035072e4"
-        },
-        {
-            "id": "c2a0bd09-c117-484b-a904-c4c845b59ec0",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 84,
-            "eventtype": 9,
-            "m_owner": "f8f6d2fc-240f-4a4c-9793-f11f035072e4"
-        },
-        {
             "id": "46b2fb3b-693a-4fe7-b7e2-8a0ff1e94dda",
             "modelName": "GMEvent",
             "mvc": "1.0",

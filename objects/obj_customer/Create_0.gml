@@ -2,7 +2,7 @@
 
 #region Set checkout conversation
 goodbye_conversation = "Textbox/Checkout/Generics/generic";
-
+hello_news = "";
 var numConvs = 0;
 var fname = goodbye_conversation + string(numConvs) + ".json";
 while (file_exists(fname)) {
@@ -69,3 +69,4 @@ maxSteps = 7;
 #endregion
 
 alarm[1] = movementTotal / 2; //alarm1 plays doorbell sound
+debug = false;
