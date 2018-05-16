@@ -5,3 +5,4 @@ global.bgm = audio_play_sound(snd_supermarket, 0, true);
 
 blink = 0;
 global.stay = true;
+global.boom = false;

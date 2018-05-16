@@ -8,7 +8,8 @@
         "0d70e6b9-48c9-4886-9a0d-7c459b1e5fa6",
         "3250193e-4209-40b9-b085-89ea87056f04",
         "13598cb1-d1d0-480d-962e-7d4d0884d630",
-        "92b7987b-a650-478d-8da6-efe9b3dea5e6"
+        "92b7987b-a650-478d-8da6-efe9b3dea5e6",
+        "27291720-7343-43ed-9aeb-130588fb7f37"
     ],
     "filterType": "GMObject",
     "folderName": "Dragable Objects",

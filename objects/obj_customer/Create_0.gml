@@ -15,9 +15,13 @@ goodbye_conversation += string(irandom_range(0, numConvs - 1)) + ".json";
 
 #region Set Items
 items = [];
-for (var i = 0; i < irandom_range(1, 5); i++) {
-	items[i] = obj_item;	
-}
+
+if (!global.boom) {
+	for (var i = 0; i < irandom_range(1, 5); i++) {
+		items[i] = obj_item;	
+	}
+} else
+	items = [obj_water, obj_water];
 #endregion
 
 #region Set sprite info
